@@ -13,7 +13,6 @@ public class TASK_27_dec_2025 {
             System.out.println("isosceles triangle");
         }else {
             System.out.println("scalene triangle");
-
     }
         sc.close();
     }
