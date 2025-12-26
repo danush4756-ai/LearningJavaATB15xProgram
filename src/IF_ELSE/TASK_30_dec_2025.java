@@ -15,7 +15,7 @@ public class TASK_30_dec_2025 {
         } else if (score>60 && score<=69) {
             System.out.println("D");
         }else {
-            System.out.println("f");
+            System.out.println("F");
     }
     }
     }
