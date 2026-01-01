@@ -7,6 +7,7 @@ public class suffixes_long {
         //long z = 2147483648;    // ❌ ERROR - exceeds int range
         long z = 2147483648L;// ✅ Works - L suffix makes it long
         long m = 314134l; // ✅ Valid but CONFUSING (looks like 1001)
+       // long n = (long) 2147483648; // ❌ STILL ERROR!
         /* When to use L:
 When the value exceeds int range (-2,147,483,648 to 2,147,483,647) */
     }
