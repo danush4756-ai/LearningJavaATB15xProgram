@@ -9,5 +9,12 @@ public class Binary_Literals {
         int a = 0b1010;
         int b = --a;
         System.out.println(b); //converted binary to numerical value 10 and applied decrement and gave 9
+        // Octal base? -> 8
+        int octal = 0101;
+
+        // Hexadecimal Literals - 16
+        int hex = 0Xface;
+        //base 16 color combination are in hex - #28a745
+
     }
 }
