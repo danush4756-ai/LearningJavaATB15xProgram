@@ -8,7 +8,8 @@ public class with_scanner {
         System.out.println("Enter the number from 1 to 7 to tell which day: ");
 
         if (scanner.hasNextInt()) { /* this has to be written before asking input because if this is asked
-        after asking user input user input will be executed*/
+        after asking user input, user input will already be executed and crashed if it is invalid user
+        user input*/
             int day = scanner.nextInt();//instead of int if user enter string InputMismatchException error
             switch (day) {
                 case 1:
