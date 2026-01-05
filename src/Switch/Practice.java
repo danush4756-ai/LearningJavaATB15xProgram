@@ -8,7 +8,7 @@ public class Practice {
         String weather = scanner.nextLine();
         weather = weather.toLowerCase();
         switch (weather) {
-            default -> System.out.println("give correct input");//default can be anywhere
+            default -> System.out.println("give correct input");//default can be placed anywhere
             case "rainy" -> System.out.println("wear rain coat");
             case "winter" -> System.out.println("wear sweeter");
             case "summer" -> System.out.println("use AC");
