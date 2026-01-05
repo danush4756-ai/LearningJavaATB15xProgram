@@ -2,7 +2,7 @@ package Switch;
 
 import java.util.Scanner;
 
-public class with_scanner {
+public class if_scanner_hasNextInt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number from 1 to 7 to tell which day: ");
