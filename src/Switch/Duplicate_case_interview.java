@@ -1,6 +1,6 @@
 package Switch;
 
-public class Duplicate_case {
+public class Duplicate_case_interview {
     public static void main(String[] args) {
         int a = 98;
         switch (a) {
