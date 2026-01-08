@@ -8,7 +8,7 @@ public class Continue {
         System.out.println("Enter a no.");
         int num = scanner.nextInt();
         for (int i = 0; i < num; i++) {
-            if (i == 5) {
+            if (i == 5 || i % 2 == 0) {
                 continue;//when i = 5. it goes back to start next iteration instead of going to next line
             }
             System.out.println(i);
