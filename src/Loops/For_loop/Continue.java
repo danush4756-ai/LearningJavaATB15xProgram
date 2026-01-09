@@ -9,7 +9,7 @@ public class Continue {
         int num = scanner.nextInt();
         for (int i = 0; i < num; i++) {
             if (i == 5 || i % 2 == 0) {
-                continue;//when i = 5. it goes back to start next iteration instead of going to next line
+                continue; //when i = 5. it goes back to start next iteration instead of going to next line
             }
             System.out.println(i);
         }
