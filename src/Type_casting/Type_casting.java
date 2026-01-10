@@ -1,3 +1,4 @@
+package Type_casting;
 public class Type_casting {
     static void main(String[] args) {
         byte a =10;
