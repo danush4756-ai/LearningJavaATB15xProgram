@@ -5,16 +5,14 @@ public class task_increment_deceremnt {
         int a = 10;
         a = a++ + a++ + a++;
         System.out.println(a);
-
         a = 3;
-
         int b = a++ * ++a;
-
         System.out.println(b);
-
-
         a = 5;
-
         System.out.println(a++ + a--);
+        a = 3;
+        System.out.println(a++);
+        a = 6;
+        System.out.println(--a);
     }
 }
