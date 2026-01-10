@@ -25,11 +25,13 @@ public class while_guessing_game {
             }
             guess = scanner.nextInt();
             attempts++;
-            if(guess < numberToGuess){
-                System.out.println("more than " + guess);
-            }else if( guess > numberToGuess){
+            if(guess > 100 || guess < 1){
+                System.out.println("enter number b/w 1 to 100");
+            }else if( guess > numberToGuess) {
                 System.out.println("less than " + guess);
-            }else{
+            } else if (guess < numberToGuess) {
+                System.out.println("more than " + guess);
+            } else{
                 System.out.println("Correct! You have taken -> " +  attempts );
                 break;
             }
