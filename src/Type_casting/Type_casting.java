@@ -3,7 +3,7 @@ public class Type_casting {
     static void main(String[] args) {
         byte a =10;
         int b = a; //implicit widening
-        int c = (int)b; //explicit widening
+        int c = (int)b; //explicit widening is unnecessary as implicit widening is simple
         //byte d = c; implicit narrowing not allowed
         byte d = (byte)c; //explicit narrowing is allowed because it is the way of telling java,
  //i know this might lose data but I'm doing it intentionally and responsibility will be on user
