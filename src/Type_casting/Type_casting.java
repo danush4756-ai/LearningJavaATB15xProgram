@@ -5,7 +5,7 @@ public class Type_casting {
         int b = a; //implicit widening
         int c = (int)b; //explicit widening
         //byte d = c; implicit narrowing not allowed
-        byte d = (byte)10; //explicit narrowing is allowed because it is the way of telling java,
+        byte d = (byte)c; //explicit narrowing is allowed because it is the way of telling java,
  //i know this might lose data but I'm doing it intentionally and responsibility will be on user
  int e = 383, g = 384;
  byte f = (byte) e;//byte value ranges between -128 to 127 & total 256 values
