@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class TASK_30_dec_2025 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        if (sc.hasNextInt()){
         int score = sc.nextInt();
-        if (score>=90 && score<=100) {
+        if (score>100 || score<1) {
+            System.out.println("invalid input");
+        } else if (score>=90 && score<=100) {
             System.out.println("A");
         } else if (score>=80 && score<=89) {
             System.out.println("B");
@@ -17,5 +20,8 @@ public class TASK_30_dec_2025 {
         }else {
             System.out.println("F");
     }
+        }else {
+                System.out.println("invalid input");
+            }
     }
     }
