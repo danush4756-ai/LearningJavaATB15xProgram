@@ -1,11 +1,17 @@
 package Switch;
 
-public class Boolean_interview {
+public class
+Boolean_interview {
     public static void main(String[] args) {
-        boolean b = true;
-//        switch (b) { //boolean cannot be used with switch
-//        }
-    }
+        boolean flag = true;
 
+// This WORKS in Java 22+:
+        switch
+        (flag) {  // ✅ Works now!
+            case true -> System.out.println("True");
+            case false -> System.out.println("False");
+        }
+    }
 }
+
 
