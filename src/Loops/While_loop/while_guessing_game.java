@@ -21,7 +21,9 @@ public class while_guessing_game {
 
             if (!scanner.hasNextInt()) {
                 System.out.println("Invalid input! Please enter interger number only!");
-                scanner.next(); // Consume invalid token
+                scanner.next(); /*this is used so that the wrong input will not give error and the input is
+                asked again but what if the user gives wrong input again so loop will help to continue
+                this till user gives correct input*/
             }
             guess = scanner.nextInt();
             attempts++;
