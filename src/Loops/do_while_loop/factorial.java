@@ -1,6 +1,6 @@
-package Loops;
+package Loops.do_while_loop;
 import java.util.Scanner;
-public class do_while_loop {
+public class factorial {
     public static void main(String[] args) {
         int fact = 1;
         Scanner scanner = new Scanner(System.in);
