@@ -10,6 +10,7 @@ public class sum_of_2_numbers {
     b = scanner.nextInt();
     int sum = sum_of_2_numbers(a , b);
         System.out.println("n1+n2= " + sum);
+        scanner.close();
     }
     static int sum_of_2_numbers (int x, int y) {
         return x + y;
