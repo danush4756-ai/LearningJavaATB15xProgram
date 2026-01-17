@@ -10,8 +10,15 @@ public class calling_methods {
             System.out.println("Function B");
             functionA();  // Can even call functionA back (be careful - infinite loop!)
         }
-        public static void main(String[] args) {
-            functionA();  // Calling from main
+      //  public static void main(String[] args) {
+        //    functionA();  // Calling from main //main method should always be here inside the main class
+        /* In Java, when we run a program, it looks for the main method in the top-level public class
+         (which should match the filename). */
         }
-    }
+public static void main(String[] args) {
+   // functionA();  // Calling from main
+    /* cannot call a function which is defined in the inner class from
+    the outer class */
+    Example.functionA();
+}
 }
