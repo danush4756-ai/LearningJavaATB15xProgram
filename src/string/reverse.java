@@ -10,9 +10,9 @@ public class reverse {
         }
         System.out.println(reverse);
         if (reverse.equalsIgnoreCase(input)) {
-            System.out.println("palindrom");
+            System.out.println("palindrome");
         }else {
-            System.out.println("not palindrom");
+            System.out.println("not palindrome");
         }
         scanner.close();
     }
