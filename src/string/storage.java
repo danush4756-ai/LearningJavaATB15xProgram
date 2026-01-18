@@ -9,7 +9,8 @@ public class storage {
         System.out.println(s1==s3);
         String s4 = new String("Darshan");//it is not same as s2, it has created a new object
         System.out.println(s2==s4);//different objects at different memory locations, so false
-        s1 = s1.concat(" T S");
+        s1 = s1.concat(" T S");/*here " T s" is another object stored in string pool and "Darshan T S"
+        will be stored in heap (outside the string pool) it works like new String*/
         System.out.println(s1);/*"Darshan T S" is printed but "Darshan" alone is still present in String
         content pool because String is immutable*/
     }
