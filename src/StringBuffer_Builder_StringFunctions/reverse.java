@@ -7,5 +7,8 @@ public class reverse {
         s1.reverse();
         System.out.println(s1);
         s1.toString();//converts to String and still stored in heap
+        StringBuffer s2 = new StringBuffer("T S");
+        s2.reverse();
+        System.out.println(s2);
     }
 }
