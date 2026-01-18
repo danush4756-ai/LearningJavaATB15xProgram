@@ -9,5 +9,6 @@ public class reverse {
             reverse = reverse+input.charAt(i);
         }
         System.out.println(reverse);
+        scanner.close();
     }
 }
