@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Second_highest_in_array_using_loops {
+public class Interview_Second_highest_in_array_using_loops {
     public static void main(String[] args) {
         int[] numbers = {12, 4, 10, 1, 100, 3, 34, 32};//100,34
         int max = numbers[0];
