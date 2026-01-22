@@ -1,6 +1,7 @@
 package OOPs;
 
 public class classes {
+   // Class = Attributes + Methods (Behavior)
     // Attributes
     String name;
     int age;
