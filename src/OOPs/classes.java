@@ -2,7 +2,7 @@ package OOPs;
 
 public class classes {
    // Class = Attributes + Methods (Behavior)
-    // Attributes
+    // Attributes (also called fields / variables)
     String name;
     int age;
     String gender;
@@ -12,7 +12,7 @@ public class classes {
     String courseName;
     String paymentID;
 
-    // Behaviour
+    // Behaviour (also called methods / functions)
     void speak() {}
     void eat() {}
     void sleep() {};
