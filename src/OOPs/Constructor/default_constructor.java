@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.Constructor;
 
 public class default_constructor {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.Constructor;
 
 public class Generating_constructor {
     String email, password, submitButton;
