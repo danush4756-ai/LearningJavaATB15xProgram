@@ -12,7 +12,7 @@ public class classes {
     String courseName;
     String paymentID;
 
-    // Behaviour (also called methods / functions)
+    // Behavior (also called methods / functions)
     void speak() {}
     void eat() {}
     void sleep() {};
