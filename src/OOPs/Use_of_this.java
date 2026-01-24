@@ -16,7 +16,9 @@ class Cat{
         System.out.println("DC");
     }
     Cat(String nameGiven){
-        name = nameGiven; //doesn't prints null because instance variable = parameter
+        name = nameGiven; /*doesn't print null because instance variable = parameter but still it is better
+        to use this.name = nameGiven as a part of convention because what if someone change nameGiven to
+        name*/
         nameGiven = nameGiven; /*Reassigns the parameter to itself. Does not affect the instance variable.
         so prints null if code ends at this line*/
         this.nameGiven = nameGiven;
