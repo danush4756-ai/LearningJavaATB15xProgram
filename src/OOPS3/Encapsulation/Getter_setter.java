@@ -24,19 +24,15 @@ class limitedAccess {
     public String getPassword() {
         return password;
     }
-
     public void setPassword(String password) {
         this.password = password;
     }
-
     public String getLoginid() {
         return loginid;
     }
-
     public void setLoginid(String loginid) {
         this.loginid = loginid;
     }
-
     private String password;
     limitedAccess(String loginid, String password) {
         this.loginid=loginid;
