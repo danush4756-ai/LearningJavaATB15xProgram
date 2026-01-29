@@ -1,4 +1,4 @@
-package OOPS3_Polymorphism;
+package OOPS3.Polymorphism;
 
     class Student {
         String name;

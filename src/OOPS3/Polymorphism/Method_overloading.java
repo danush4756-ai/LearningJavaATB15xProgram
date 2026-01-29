@@ -1,4 +1,4 @@
-package OOPS3_Polymorphism;
+package OOPS3.Polymorphism;
 
 public class Method_overloading {
     public static void main(String[] args) {

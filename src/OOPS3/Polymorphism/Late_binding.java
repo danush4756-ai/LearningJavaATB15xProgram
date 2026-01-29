@@ -1,4 +1,4 @@
-package OOPS3_Polymorphism;
+package OOPS3.Polymorphism;
 public class Late_binding {
     public static void main(String[] args) {
         // Even without "polymorphic" intent, this uses late binding
