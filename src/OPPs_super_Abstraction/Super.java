@@ -31,7 +31,7 @@ public class Super {
         TestCase() {
             //super(); No-arg Explicit Constructor and (Inheritance) Implicit Call
        //super("Chrome"); Parameterized Explicit Constructor and (Inheritance) Implicit Call
-            //it is possible to have one Explicit Constructor call
+            //it is possible to have one Explicit Constructor call using super
             super.openBrowser("Chrome");
             super.closeBrowser();
             System.out.println(super.getBrowser());
