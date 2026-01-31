@@ -1,4 +1,4 @@
-package OPPs_super_Abstraction;
+package OOPs_super_Abstraction;
 
 public class Super {
     class BaseClass {
