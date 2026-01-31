@@ -1,6 +1,8 @@
 package OOPs;
 
+//private class classes { top class cannot be private
 public class classes {
+ private class check { } //inner class can be private
    // Class = Attributes + Methods (Behavior)
     // Attributes (also called fields / variables)
     String name;
