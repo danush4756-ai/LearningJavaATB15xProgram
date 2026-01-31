@@ -12,7 +12,9 @@ abstract class Father{
        /* Father name = new Father(); cannot create an object of an abstract class directly using
          the new keyword*/
     }
-    abstract void loan50K();
+    abstract void loan50K(); //{
+      //  System.out.println("given by father"); Abstract methods cannot have a body
+   // }
     // concrete - complete method
     void load10K(){
         System.out.println("Given!");
