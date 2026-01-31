@@ -1,5 +1,5 @@
-package Encap_Access_Modifier.Criminal;
-import Encap_Access_Modifier.Police.Cop_within_class;
+package OOPs_Encap_Access_Modifier.Criminal;
+import OOPs_Encap_Access_Modifier.Police.Cop_within_class;
 public class JrThief_subclass_through_inheritance extends Cop_within_class {
     public JrThief_subclass_through_inheritance(int bullet) {
         super(bullet);

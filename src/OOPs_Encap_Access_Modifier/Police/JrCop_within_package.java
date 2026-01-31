@@ -1,4 +1,4 @@
-package Encap_Access_Modifier.Police;
+package OOPs_Encap_Access_Modifier.Police;
 
 public class JrCop_within_package {
      /*jrcop.CanIShoot(); Executable statements must always be inside methods, constructors or

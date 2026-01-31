@@ -1,4 +1,4 @@
-package Encap_Access_Modifier.Police;
+package OOPs_Encap_Access_Modifier.Police;
 
 public class Cop_within_class {
     private String IdCard = "1st cop";
