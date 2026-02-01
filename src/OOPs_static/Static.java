@@ -15,9 +15,6 @@ public class Static {
         check.nonStaticMethod();
       //System.out.println(nonstatic); Non-static field cannot be referenced from a static context
         System.out.println(STATIC);
-        /* Final Statement:-
-Inside a static method like main, non-static members must be accessed using an object, while static
-members can be accessed directly using the class */
     }
     void nonStaticMethod () {
         System.out.println(nonstatic);
