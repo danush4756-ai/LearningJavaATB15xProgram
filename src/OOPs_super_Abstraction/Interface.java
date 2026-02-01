@@ -13,18 +13,18 @@ Car.drive();
         engine.StopEngine();/* Static method may only be called on it's containing interface because
         Static methods do NOT belong to objects. They belong to the type (class or interface) itself.*/
     }
-        public void ApplyBreak() {
-            System.out.println("Apply Break");
+        @Override
+        public void ApplyBreak() { //here line 27 and 24 have same method and so it is overridden only once
         }
         @Override
         public void GoFaster() {
-            System.out.println("Go Faster");
         }
     }
 interface breaks {
  void ApplyBreak(); //abstract by default
 }
 interface engine {
+    void ApplyBreak();
     void GoFaster();
     default void StartEngine() { //concrete implementation requires a body
         System.out.println("Start Engine");
