@@ -11,8 +11,8 @@ public class Static {
     public static void main(String[] args) {
         int a = 10;
         Static check = new Static();
-        System.out.println(check.nonstatic); //uses Object Access
-        check.nonStaticMethod(); //calls an instance method through the object reference.
+        System.out.println(check.nonstatic); //non-static variable
+        check.nonStaticMethod(); //non-static method
         Static.STATIC = "Static Variable"; //static variable
         System.out.println(STATIC);
         Static.StaticMethod(); //static method
