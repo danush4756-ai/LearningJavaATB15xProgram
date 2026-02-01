@@ -28,7 +28,7 @@ interface engine {
     void GoFaster();
     default void StartEngine() { //concrete implementation requires a body
         System.out.println("Start Engine");
-    }
+    } // default in interface ≠ default access modifier.
     static void StopEngine() {
         System.out.println("Stop Engine");
     }
