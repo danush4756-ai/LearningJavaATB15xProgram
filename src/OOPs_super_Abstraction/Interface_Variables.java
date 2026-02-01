@@ -1,5 +1,5 @@
 package OOPs_super_Abstraction;
-public class Super {
+public class Interface_Variables {
     class Parent {
         int x = 10;
     }
