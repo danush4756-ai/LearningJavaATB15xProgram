@@ -1,4 +1,4 @@
-package ENUM;
+package ENUM.simple;
 
 public class Enum {
     public static void main(String[] args) {
