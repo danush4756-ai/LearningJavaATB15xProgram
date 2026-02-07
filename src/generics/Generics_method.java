@@ -1,5 +1,5 @@
 package generics;
-public class Generics {
+public class Generics_method {
     public static void main(String[] args) {
         temp(3, 4);
         temp(3.34, 4.45);
