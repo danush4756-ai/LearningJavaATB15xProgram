@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class check {
+public class Sorting_String_and_char {
     public static void main(String[] args) {
         List marks = new ArrayList();
         marks.add('1'); //Digits '0'-'9' range from 48 to 57. Value 49
