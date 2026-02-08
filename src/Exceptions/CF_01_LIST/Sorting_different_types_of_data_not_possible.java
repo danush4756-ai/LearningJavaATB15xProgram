@@ -1,0 +1,16 @@
+package Exceptions.CF_01_LIST;
+import java.util.*;
+public class Sorting_different_types_of_data_not_possible {
+    public static void main(String[] args) {
+        List marks = new ArrayList();
+        marks.add("Darshan");
+        marks.add(95);
+        marks.add('T');
+        marks.add(5.89);
+        System.out.println(marks); //original
+       /* Collections.sort(marks);
+        System.out.println(marks);//ascending
+        Collections.sort(marks, Collections.reverseOrder());
+        System.out.println(marks);//descending */
+    }
+}
