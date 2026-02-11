@@ -1,4 +1,4 @@
-package Exceptions.CF_01_LIST;
+package Collection_Framework;
 import java.util.ArrayList;
 import java.util.List;
 public class ArrayList_Capacity_Expansion {

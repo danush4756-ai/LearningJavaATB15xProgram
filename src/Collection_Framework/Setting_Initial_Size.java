@@ -1,4 +1,4 @@
-package Exceptions.CF_01_LIST;
+package Collection_Framework;
 import java.util.*;
 public class Setting_Initial_Size {
     public static void main(String[] args) {
