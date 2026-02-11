@@ -12,7 +12,7 @@ public class Static_organized {
         System.out.println("Inside Static Method.");
     }
     public static void main(String[] args) {
-        // Create an NonStatic object first to access non-static members
+        // Create an object first to access non-static members
         Static_organized NonStatic1 = new Static_organized();
         // --- PART 1: Accessing non-static variable to assign values---
         NonStatic1.nonStaticVar = 100;//refer line 5
