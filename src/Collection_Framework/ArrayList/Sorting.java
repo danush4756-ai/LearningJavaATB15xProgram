@@ -1,16 +1,16 @@
-package Collection_Framework.Array_List;
+package Collection_Framework.ArrayList;
 import java.util.*;
-public class Sorting_different_types_of_data_not_possible {
+public class Sorting {
     public static void main(String[] args) {
         List marks = new ArrayList();
-        marks.add("Darshan");
+        marks.add(91);
         marks.add(95);
-        marks.add('T');
-        marks.add(5.89);
+        marks.add(56);
+        marks.add(89);
         System.out.println(marks); //original
-       /* Collections.sort(marks);
+        Collections.sort(marks);
         System.out.println(marks);//ascending
         Collections.sort(marks, Collections.reverseOrder());
-        System.out.println(marks);//descending */
+        System.out.println(marks);//descending
     }
 }

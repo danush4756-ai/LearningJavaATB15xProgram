@@ -1,4 +1,4 @@
-package Collection_Framework.Array_List;
+package Collection_Framework.ArrayList;
 import java.util.*;
 public class Setting_Initial_Size {
     public static void main(String[] args) {

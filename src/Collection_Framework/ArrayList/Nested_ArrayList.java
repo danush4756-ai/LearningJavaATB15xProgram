@@ -1,4 +1,4 @@
-package Collection_Framework.Array_List;
+package Collection_Framework.ArrayList;
 import java.util.*;
 public class Nested_ArrayList {
     public static void main(String[] args) {
