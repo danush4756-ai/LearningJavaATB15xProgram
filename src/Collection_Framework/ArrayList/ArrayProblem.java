@@ -13,7 +13,7 @@ public class ArrayProblem {
             System.out.print(i + " ");
         }
         //arr[2]= 3; out of bound (Fixed Size)
-        //System.out.println(arr.size()); no methods
+        //System.out.println(arr.size()); limited methods
         //insertion and deletion is heavy operation.
         List arrayList = new ArrayList();
     }
