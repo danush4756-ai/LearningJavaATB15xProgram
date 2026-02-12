@@ -1,4 +1,4 @@
-package Collection_Framework.ArrayList;
+package Collection_Framework.List;
 import java.util.ArrayList;
 import java.util.List;
 public class ArrayList_Capacity_Expansion {

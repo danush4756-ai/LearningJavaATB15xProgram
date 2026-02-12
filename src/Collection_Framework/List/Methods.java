@@ -1,4 +1,4 @@
-package Collection_Framework.ArrayList;
+package Collection_Framework.List;
 import java.util.*;
 public class Methods {
     public static void main(String[] args) {
