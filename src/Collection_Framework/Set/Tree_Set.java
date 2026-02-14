@@ -13,5 +13,9 @@ public class Tree_Set {
         //ts.add(123); not allowed because it effects sorting
         //ts.add(null); not allowed because it effects sorting
         System.out.println(ts);
+        Iterator iterator = ts.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
    }
 }
