@@ -5,8 +5,9 @@ public class Tree_map {
     Map<String, Integer> prices = new TreeMap<>();
         prices.put("Banana", 40);
         prices.put("Apple", 120);
-        prices.put("Cherry", 200);
+        prices.put("Cherry", 120);//values can be same
         prices.put("Date", 350);
+        prices.put("Date", 800);//prints latest value
     // {Apple=120, Banana=40, Cherry=200, Date=350}
     // ✅ Sorted alphabetically by key!
         System.out.println(prices);
