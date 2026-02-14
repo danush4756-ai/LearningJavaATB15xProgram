@@ -6,6 +6,7 @@ public class hash_set {
         hs.add("Darshan"); // da67sd7a6sdad68as67da8d67
         hs.add("Darshan"); // da67sd7a6sdad68as67da8d67 //only one element will print
         hs.add("dramod"); // wewewa67sd7a668as67da8d67
+        hs.add("Dramod");//not duplicate
         hs.add(null);
         hs.add(123);
         System.out.println(hs);
