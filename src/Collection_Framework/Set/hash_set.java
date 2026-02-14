@@ -1,11 +1,13 @@
 package Collection_Framework.Set;
 import java.util.*;
-public class hash_set_duplicate {
+public class hash_set {
     public static void main(String[] args) {
         Set hs = new HashSet();
         hs.add("Darshan"); // da67sd7a6sdad68as67da8d67
         hs.add("Darshan"); // da67sd7a6sdad68as67da8d67 //only one element will print
         hs.add("dramod"); // wewewa67sd7a668as67da8d67
+        hs.add(null);
+        hs.add(123);
         System.out.println(hs);
         List a = new ArrayList<>();
         a.add("Darshan");
