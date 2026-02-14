@@ -1,6 +1,6 @@
 package Collection_Framework.MAP;
 import java.util.*;
-public class MAP {
+public class Hash_Map {
     public static void main(String[] args) {
         Map m1 = new HashMap();
         Map m2 = new LinkedHashMap();
