@@ -4,6 +4,7 @@ public class Generics_method {
         temp(3, 4);
         temp(3.34, 4.45);
         temp("pramod", "dutta");
+        temp('a', "darsh");
     }
     static <darsh> darsh temp(darsh a, darsh b) {
         return null;
