@@ -5,4 +5,5 @@ public class Constant {
         final int age = 100;
         // age = 45; // this is an error because age is constant now
     }
+
 }
