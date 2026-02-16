@@ -17,8 +17,6 @@ public class calling_methods {
         }
 public static void main(String[] args) {
    // functionA();  // Calling from main
-    /* cannot call a function which is defined in the inner class from
-    the outer class */
     Example.functionA();
 }
 }
