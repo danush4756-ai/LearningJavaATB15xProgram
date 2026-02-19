@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class ArrayList_Capacity_Expansion {
     public static void main(String[] args) {
-        List check = new ArrayList();
+        List<String> check = new ArrayList<>();
         check.add("1");//1
         check.add("1");//2
         check.add("1");//3
