@@ -2,7 +2,7 @@ package Collection_Framework.List;
 import java.util.*;
 public class Sorting {
     public static void main(String[] args) {
-        List marks = new ArrayList();
+        List<Integer> marks = new ArrayList<>();
         marks.add(91);
         marks.add(95);
         marks.add(56);
