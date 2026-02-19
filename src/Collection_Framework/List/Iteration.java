@@ -2,7 +2,7 @@ package Collection_Framework.List;
 import java.util.*;
 public class Iteration {
     public static void main(String[] args) {
-        List list = new ArrayList();
+        List<Object> list = new ArrayList<>();
         list.add("1"); // 0
         list.add("2"); // 1
         list.add("3");// 2
