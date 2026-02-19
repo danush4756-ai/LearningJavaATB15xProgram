@@ -2,7 +2,7 @@ package Collection_Framework.List;
 import java.util.*;
 public class Sorting_different_types_of_data_not_possible {
     public static void main(String[] args) {
-        List marks = new ArrayList();
+        List<Object> marks = new ArrayList<>();
         marks.add("Darshan");
         marks.add(95);
         marks.add('T');
