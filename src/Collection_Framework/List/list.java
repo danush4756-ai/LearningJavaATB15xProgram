@@ -7,7 +7,7 @@ public class list {
         //fruits.add("kiwi"); Unsupported Operation Exception
         System.out.println(fruits);
       //  List mylist = new List(); List is abstract
-        List arrayList = new ArrayList();
+        List<Object> arrayList = new ArrayList<>();
         arrayList.add("Pramod");
         arrayList.add(123);
         arrayList.add(true);
