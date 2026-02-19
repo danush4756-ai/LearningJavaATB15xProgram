@@ -8,12 +8,12 @@ public class Nested_ArrayList {
         fruits.add("cherry");
 //        fruits.add(133);
         System.out.println(fruits);
-        List vegatables = new ArrayList();
+        List<String> vegatables = new ArrayList<>();
         vegatables.add("tamato");
         vegatables.add("patato");
         vegatables.add("onion");
         System.out.println(vegatables);
-        List all_fruits_veg = new ArrayList();
+        List<Object> all_fruits_veg = new ArrayList<>();
         all_fruits_veg.add(fruits);
         all_fruits_veg.add(vegatables);
         System.out.println(all_fruits_veg);
