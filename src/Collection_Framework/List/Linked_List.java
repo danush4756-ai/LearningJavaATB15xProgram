@@ -9,17 +9,18 @@ public class Linked_List {
         mylist.add(3);
         mylist.addLast(4);
         mylist.addFirst(5);
-        System.out.println(mylist.getFirst());
-        System.out.println(mylist.getLast());
-        System.out.println(mylist.get(2));
+        System.out.println("1 " + mylist.getFirst());
+        System.out.println("2 "+mylist.getLast());
+        System.out.println("3 "+mylist.get(2));
         mylist.removeFirst();
-        mylist.remove("Banana");
-        System.out.println(mylist);
+       // mylist.remove(2); here 2 is considered as index
+        mylist.remove(Integer.valueOf(2)); // This removes the OBJECT 2, not the INDEX 2
+        System.out.println("4 "+mylist);
         mylist.remove(2);
-        System.out.println(mylist);
+        System.out.println("5 "+mylist);
         List mylist2 = new ArrayList();
         mylist2.addLast("Darshan");
         mylist2.addFirst("T S");
-        System.out.println(mylist2);
+        System.out.println("6 "+mylist2);
     }
 }
