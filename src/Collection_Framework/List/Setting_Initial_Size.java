@@ -2,9 +2,7 @@ package Collection_Framework.List;
 import java.util.*;
 public class Setting_Initial_Size {
     public static void main(String[] args) {
-        // List s = new List()
-        List mylist0 = new ArrayList();
-        List mylist1 = new ArrayList(5);
+        List<Integer> mylist1 = new ArrayList<>(5);
         mylist1.add(2131);//1
         mylist1.add(2131);//2
         mylist1.add(2131);//3
