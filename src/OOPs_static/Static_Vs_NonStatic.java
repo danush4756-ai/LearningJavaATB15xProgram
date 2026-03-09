@@ -1,6 +1,6 @@
 package OOPs_static;
-public class Static {
-    Static (){
+public class Static_Vs_NonStatic {
+    Static_Vs_NonStatic(){
         System.out.println("hello");
     }
     int nonstatic = 10;
@@ -10,12 +10,12 @@ public class Static {
     }
     public static void main(String[] args) {
         int a = 10;
-        Static check = new Static();
+        Static_Vs_NonStatic check = new Static_Vs_NonStatic();
         System.out.println(check.nonstatic); //non-static variable
         check.nonStaticMethod(); //non-static method
-        Static.STATIC = "Static Variable"; //static variable
+        Static_Vs_NonStatic.STATIC = "Static Variable"; //static variable
         System.out.println(STATIC);
-        Static.StaticMethod(); //static method
+        Static_Vs_NonStatic.StaticMethod(); //static method
       //System.out.println(nonstatic); Non-static field cannot be referenced from a static context
     }
     void nonStaticMethod () {
